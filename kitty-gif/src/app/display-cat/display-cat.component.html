@@ -1,0 +1,6 @@
+<main>
+  <button (click)="getGif()">Click Me!</button>
+  <div *ngIf="firstCat" class="cat-container">
+    <img src="{{ gif }}" alt="cat" />
+  </div>
+</main>

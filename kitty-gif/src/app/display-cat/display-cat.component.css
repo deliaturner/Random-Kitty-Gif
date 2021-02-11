@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px;
+  font-family: "PT Serif", serif;
+}
+
+.cat-container {
+  height: 50vh;
+}
+
+img {
+  width: 300px;
+}
