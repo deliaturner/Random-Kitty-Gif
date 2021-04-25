@@ -13,6 +13,14 @@ button {
   font-family: "PT Serif", serif;
 }
 
+button:hover {
+  padding: 15px;
+  font-weight: bolder;
+  background-color: white;
+  color: blue;
+  transition: 0.3s;
+}
+
 .cat-container {
   height: 50vh;
 }
